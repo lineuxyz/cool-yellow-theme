@@ -1,0 +1,21 @@
+{
+    "name": "cool-yellow-theme",
+    "displayName": "Cool yellow theme",
+    "description": "This is a yellow theme, but not just any yellow theme, this is a SUPER COOL YELLOW THEME!!",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.45.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "yellow",
+                "uiTheme": "vs-dark",
+                "path": "./themes/yellow-color-theme.json"
+            }
+        ]
+    }
+}
